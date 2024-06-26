@@ -1,0 +1,39 @@
+:root {
+  --color-grey: #1d1d1f;
+  --color-white: #ffffff;
+
+  --color-primary: #1d1d1f;
+  --color-secondary: #2997ff;
+  --color-tertiary: #a31621;
+  --color-danger: #e06f3f;
+  --color-waiting: #eea53f;
+  --color-error: #a31621;
+
+  --color-form: #afb4bf;
+
+  --background-light: #ffffff;
+
+  --color-main: #1d1d1f;
+  --background-edit: #a2afbe79;
+  // --background-nav: #f6f6f6dc;
+}
+
+@import "_typography.scss";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: $font;
+  font-size: 16px;
+  color: var(--color-grey);
+  line-height: 20px;
+  font-weight: normal;
+  background: var(--background-light);
+  scroll-margin: 100px 0 0 0;
+  word-break: break-word;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
