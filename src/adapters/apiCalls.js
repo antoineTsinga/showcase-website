@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACKEND_URL = process.env.REACT_APP_URL || `http://localhost:8086`;
+export const BACKEND_URL = process.env.REACT_APP_API_URL;
 
 export class APIError extends Error {
   contructor(response) {
